@@ -1,0 +1,12 @@
+column,type,description
+timestamp,datetime,Hourly reading timestamp for 2025
+hour,integer,Hour of the day (0 to 23)
+day_of_year,integer,Day number in the year (1 to 365)
+cloud_cover_forecast,float,Forecast cloud cover (0 clear to 1 overcast)
+temperature_C,float,Forecast air temperature in Celsius
+humidity_pct,float,Relative humidity in percent
+wind_speed_ms,float,Wind speed in metres per second
+irradiance_Wm2,float,Simulated solar irradiance on panel (W/m2)
+sun_height_index,float,Cosine of solar zenith angle at 28.7 N
+power_kW,float,AC power output of the 5 kW rooftop plant (target)
+fault_flag,integer,"1 on injected 30% loss fault days, else 0"
